@@ -1,6 +1,7 @@
 import settings, file_manager, re
 from util import clear
 
+# 트라이는 죄악이다
 class TrieNode:
     def __init__(self):
         self.children = {}
